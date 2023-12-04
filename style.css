@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.home-hero{
+	background-image: url(images/hero.jpg);
+	height:375px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+Body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	border-top: 10px solid #6f7fac;
+	border-bottom: 15px solid #6f7fac;
+	background-image: linear-gradient(#b9c5e8, #4967be, #b9c5e8);
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.resume-photo{
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+}
+.resume{
+	max-width: 800px;
+}
+.resume h2{
+	border-bottom: 2px green solid;
+}
+p{
+	font-family: times new roman;
+	font-size: 15px;
+	font-style: normal;
+}
+em{
+	font-family: times new roman;
+	font-size: 15px;
+	font-style: normal;
+}
+hr{
+	font-family: times new roman;
+	font-size: 15px;
+	font-style: normal;
+}
+ul{
+	font-family: times new roman;
+	font-size: 15px;
+	font-style: normal;
+}
+
+/*Vertical Navigation Bar*/
+a:link{
+	color:ghostwhite;
+}
+a:visited{
+	color:lightgray;
+}
+a:hover{
+	color: lightgray;
+}
+a:active{
+	color:black;
+}
+nav{
+	background-color:#283f7c;
+	border-top: 3px #6f7fac;
+	border-bottom: 3px #6f7fac;
+	padding: 5px;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color:ghostwhite;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: lightgray;
+}
+header{
+	background-color: #a4acc2;
+	text-align: center;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+footer{
+	color: lightgray;
+	background-color:#283f7c;
+	text-align: center;
+	padding: 10px;
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/*CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		text-align: center;
+		font-size: 4em;
+	}
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
